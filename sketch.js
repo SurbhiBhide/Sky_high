@@ -9,7 +9,7 @@ function preload(){
    diamondI = loadImage("diamond1.png");
   }
 function setup() {
-  createCanvas(1500,700);
+  createCanvas(displayWidth,displayHeight);
 
   database = firebase.database();
 
